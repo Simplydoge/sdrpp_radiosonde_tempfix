@@ -1,3 +1,4 @@
+Disclaimer: I take absolutely 0 credit for the awesome work done by dbdexter-dev on his module. Only fixing the problem caused by a missing function argument.
 Radiosonde decoder plugin for SDR++
 ===================================
 
@@ -50,7 +51,7 @@ option(OPT_BUILD_RADIOSONDE_DECODER "Build the radiosonde decoder module (no dep
    following lines:
 ```
 if (OPT_BUILD_RADIOSONDE_DECODER)
-add_subdirectory("decoder_modules/sdrpp_radiosonde")
+add_subdirectory("decoder_modules/sdrpp_radiosonde_tempfix")
 endif (OPT_BUILD_RADIOSONDE_DECODER)
 ```
 4. Navigate to the `decoder_modules` folder, then clone this repository: `git clone https://github.com/dbdexter-dev/sdrpp_radiosonde --recurse-submodules`
