@@ -54,7 +54,7 @@ if (OPT_BUILD_RADIOSONDE_DECODER)
 add_subdirectory("decoder_modules/sdrpp_radiosonde_tempfix")
 endif (OPT_BUILD_RADIOSONDE_DECODER)
 ```
-4. Navigate to the `decoder_modules` folder, then clone this repository: `git clone https://github.com/dbdexter-dev/sdrpp_radiosonde --recurse-submodules`
+4. Navigate to the `decoder_modules` folder, then clone this repository: `git clone https://github.com/Simplydoge/sdrpp_radiosonde_tempfix --recurse-submodules`
 5. Build and install SDR++ following the guide in the original repository
 6. Enable the module by adding it via the module manager
 
